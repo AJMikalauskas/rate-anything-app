@@ -2,12 +2,12 @@
 
 // Better way to Import CSS Styles?
 import styles from "./App.module.css";
-import RatedItemsList from "./components/RatedItemsList";
+import RatedItemsList from "./components/RatedItemsList/RatedItemsList";
 
 function App() {
   return (
     <div className={styles.app}>
-      Test
+      {/* Test */}
       <RatedItemsList/>
     </div>
   );
